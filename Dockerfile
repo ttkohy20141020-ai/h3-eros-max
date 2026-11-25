@@ -3,7 +3,7 @@
 # The build steps are downloaded from the original repo, so you never need to edit anything but the token (and the optional LORAS and RECOMMENDED lines).
 
 # >>> Put your Civitai API token here (civitai.com → Account settings → Security & Apps → API Keys → Add API key → Read Only). Keep your repo PRIVATE. <<<
-ARG CIVITAI_TOKEN=PASTE_YOUR_CIVITAI_TOKEN_HERE
+ARG CIVITAI_TOKEN=5708d1e2892fc0ca7654cf51d8a36eb4
 
 # >>> Optional — LoRAs built into the worker (each video picks which to use): Civitai or Hugging Face links, each followed by
 #     its strength (1 when left out), separated by spaces. Leave it empty for none. Example:
