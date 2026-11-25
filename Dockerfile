@@ -12,7 +12,7 @@ ARG LORAS=""
 
 # >>> RECOMMENDED=1 (default): the creator's recommended setup — sparse attention. Needs CUDA 13 machines and builds close to RunPod's 30-minute limit.
 #     RECOMMENDED=0: plain attention — slower, but runs on any machine and builds faster. Use it if the build keeps timing out.   <<<
-ARG RECOMMENDED=1
+ARG RECOMMENDED=0
 
 FROM runpod/worker-comfyui:5.10.0-base
 ARG LORAS
